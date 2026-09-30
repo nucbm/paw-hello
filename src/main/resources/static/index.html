@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PAW – Laboratorul 1</title>
+    <style>
+        body { font-family: system-ui, sans-serif; max-width: 40rem; margin: 3rem auto; padding: 0 1rem; color: #1b2620; }
+        h1 { color: #2f7a3a; }
+        code { background: #f4f6f5; padding: .1rem .35rem; border-radius: 4px; }
+        li { margin: .5rem 0; }
+    </style>
+</head>
+<body>
+<h1>Aplicația rulează</h1>
+<p>Această pagină este servită automat de Spring Boot din <code>src/main/resources/static</code>.</p>
+<ul>
+    <li><a href="/hello">/hello</a></li>
+    <li><a href="/hello?name=Ana">/hello?name=Ana</a></li>
+    <li><a href="/time">/time</a></li>
+    <li><a href="/time?zone=Asia/Tokyo">/time?zone=Asia/Tokyo</a></li>
+    <li><a href="/time?zone=Mars/Base">/time?zone=Mars/Base</a> (fus invalid → 400)</li>
+</ul>
+</body>
+</html>

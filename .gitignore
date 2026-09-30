@@ -1,0 +1,17 @@
+# Rezultatul build-ului Maven
+target/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# VS Code / Eclipse
+.vscode/
+.classpath
+.project
+.settings/
+
+# Sistem de operare
+.DS_Store
+Thumbs.db
